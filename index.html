@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img-logo-container">
+            <div class="logo-container">
+                <div class="logo-icon"><img src="odin-lined.png" alt="logo"></div>
+                <div class="logo">FreeWeb</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="main-content-container">
+
+         <div class="dummy-text-container">
+            <div class="para-container">
+            <p>this is not a real online Service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            </div>
+            <p>I know you want to.</p>
+         </div>
+         <span class="sub-title">Let's do this!</span>
+         <form class="form-container" action="#" method="get">
+            
+            <div class="form-col">
+                <div class="input-container">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" pattern="[a-zA-Z]+" required>
+                </div>
+                <div class="input-container">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" pattern="[a-zA-Z]+" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+            </div>
+
+            <div class="form-col">
+                <div class="input-container">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" id="phone-number" minlength="10" pattern="2\d{10}" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" title="Please,use a number,a letter and at least one uppercase" required>
+                </div>
+                <div class="input-container">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"  title="Please,use a number,a letter and at least one uppercase" required>
+                </div>
+            </div>
+             <div class="sign-up-container">
+                <button type="submit">Create Account</button>
+                <p>Already have an Account? <a href="#">Log In</a></p>
+             </div>
+        </form>
+
+        
+
+    </div>
+</body>
+</html>

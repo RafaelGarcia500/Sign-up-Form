@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.img-logo-container{
+    background: url(image.jpg);
+    background-size: 550px;
+    width: 70vh;
+    height: 100vh;
+    
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    background-color: #111111;
+    position: relative;
+    top: 20vh;
+    height: 7rem;
+    opacity: 0.6;
+}
+
+ img{
+    position: relative;
+    top: 0.2em;
+    height: 15vh;
+}
+
+
+
+.dummy-text-container{
+    padding-left: 30px;
+    padding-top: 100px;
+    padding-right: 230px;
+    padding-bottom: 20px;
+    background-color: #edf2f1;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.sub-title{
+    font-weight: bold;
+    position: relative;
+    left: 1.9rem;
+    top: 8px;
+    font-size: 1.4rem;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5px;
+    right: 21px;
+    padding-top: 20px;
+    gap: 4rem;
+    
+      
+  }
+  .form-col{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+  }
+  .input-container{
+      display: flex;
+      flex-direction: column;
+      font-size: small;
+      
+      
+  }
+  
+  input[type=text],input[type=email],input[type=password]{
+      width: 220px;
+      border-radius: 5px;
+      padding: 3px;
+      border: 1px solid gray;
+      box-shadow:1px 1px 1px black;
+  }
+
+  input[type=text]:focus,
+  input[type=email]:focus,
+  input[type=password]:focus {
+    border-color: blue;
+}
+
+.sign-up-container{
+    height: 8.7rem;
+    padding-top: 60px;
+    padding-left: 30px;
+    
+    position: relative;
+    top: 14rem;
+    right: 37.3rem;
+}
+
+button{
+    position: relative;
+    bottom: 20px;
+    width: 200px;
+    padding: 10px;
+    background-color:#1b452a ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+    
